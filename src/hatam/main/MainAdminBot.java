@@ -19,7 +19,7 @@ public class MainAdminBot {
 			botsApi.registerBot(new AdminBot());
 		} catch (TelegramApiException e) {
 			e.printStackTrace();
-		}
+		} 
 
 	}
 
